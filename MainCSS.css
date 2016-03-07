@@ -1,0 +1,138 @@
+#body {
+  background-color: red
+}
+
+#title {
+  background-color: yellow;
+  font-size: 5vh;
+  text-align: center;
+  font-weight:bold
+}
+/*-------------------Lists------------------------------------*/
+.list {
+  font-size: 14px;
+  width: 8vw
+}
+
+.listHeader {
+  display: inline;
+  font-size: 2vw
+}
+
+#functionHeader {
+  margin-left: 15vw
+}
+
+#answerFormHeader {
+  margin-left: 21vw
+}
+
+#knownInfoHeader {
+  margin-left: 21vw
+}
+
+.listBackground {
+  height: 5vh;
+  width: 8vw;
+  background-color: grey;
+  position: absolute;
+}
+
+#functionBackground {
+  margin-left: 15vw
+}
+
+#answerFormBackground {
+  margin-left: 46vw
+}
+
+#knownInfoBackground {
+  margin-left: 77vw
+}
+/*-------------------------Main Box-------------------------*/
+#answerSheet {
+  background-color: white;
+  width: 66vw;
+  height: 40vh;
+  align: center;
+  position: absolute;
+  margin-left: 17vw;
+  margin-top: 10vh
+}
+
+.answerSheetBorder {
+  background-color: grey;
+  height: 40vh;
+  width: 12vw;
+}
+
+#leftAnswerSheetBorder {
+  float: left
+}
+
+#rightAnswerSheetBorder {
+  float: right
+}
+
+#answerSheetTitle{
+  text-align:center
+}
+
+.answers{
+  text-align:center
+}
+
+#decimalListIndicator {
+  font-size: 1.5vw
+}
+
+#info {
+  font-size: 2.2vh
+}
+/*---------------------Input------------------------------*/
+.input {
+  position: absolute;
+  font-size: 1.3vh;
+  width: 12vw
+}
+
+#input1 {
+  margin-top: 13vh
+}
+
+#input2 {
+  margin-top: 18vh
+}
+
+#input3 {
+  margin-top: 23vh
+}
+
+#input4 {
+  margin-top: 28vh
+}
+
+#input5 {
+  margin-top: 33vh
+}
+
+#decimal {
+  margin-top: 12vh;
+  margin-left: 85vw
+}
+/*-------------------Other--------------------*/
+#button {
+  height:8vw; 
+  width:19vw; 
+  background-color:#BCD2EE; 
+  border:2px solid #6495ED; 
+  border-radius: 10px; 
+  text-align:center; 
+  position:absolute; 
+  margin-top:50vh; 
+  margin-left:40.5vw
+}
+
+#buttonText{
+  font-size:3vw
+}

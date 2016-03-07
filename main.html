@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<head>
+  <link rel="stylesheet" type="test/css" href="mainCSS.css">
+</head>
+<body id="body">
+  <p id="title">
+    Calculator 2.2
+  </p>
+  <h1 class="listHeader" id="functionHeader">Function </h1>
+  <h1 class="listHeader" id="answerFormHeader">Answer form </h1>
+  <h1 class="listHeader" id="knownInfoHeader">Known Info </h1>
+  <div class="listBackground" id="functionBackground">
+    <form>
+      <select class="list" id="functionList" onchange="changeAnswerForm()">
+        <option> choose </option>
+        <option> Quadratic </option>
+        <option> Triangle </option>
+        <option> Rational_function </option>
+        <option> Square_root </option>
+        <option> Absolute_value </option>
+        <option> coming soon </option>
+      </select>
+    </form>
+  </div>
+  <div class="listBackground" id="answerFormBackground">
+    <form>
+      <select class="list" id="answerFormList" onchange="changeKnownInfo()">
+        <option> choose</option>
+        <option id="answerFormOption1"></option>
+        <option id="answerFormOption2"></option>
+        <option id="answerFormOption3"></option>
+        <option id="answerFormOption4"></option>
+      </select>
+    </form>
+  </div>
+  <div class="listBackground" id="knownInfoBackground">
+    <form>
+      <select class="list" id="knownInfoList" onchange="changeInput()">
+        <option id="option2"> choose</option>;
+        <option id="knownInfoOption1"></option>;
+        <option id="knownInfoOption2"></option>;
+        <option id="knownInfoOption3"></option>;
+        <option id="knownInfoOption4"></option>;
+        <option id="knownInfoOption5"></option>;
+      </select>
+    </form>
+  </div>
+  <p> </p>
+  <input class="input" type="text"  id="input1">
+  <input class="input" type="text"  id="input2">
+  <input class="input" type="text"  id="input3">
+  <input class="input" type="text"  id="input4">
+  <input class="input" type="text"  id="input5">
+  <input class="input" type="text"  id=decimal>
+  <div id="answerSheet">
+    <div class="answerSheetBorder" id="leftAnswerSheetBorder">
+      <p id="info"> </p>
+    </div>
+    <div class="answerSheetBorder" id="rightAnswerSheetBorder">
+      <p id="decimalListIndicator"> decimal places: </p>
+    </div>
+    <h1 id="answerSheetTitle"> Answers </h1>
+    <p class="answers" id='answer1'> </p>
+    <p class="answers" id='answer2'> </p>
+    <p class="answers" id='answer3'> </p>
+    <p class="answers" id='answer4'> </p>
+    <p class="answers" id='answer5'> </p>
+  </div>
+  <div id="button" onclick='chooseOperation()'>
+    <p id="buttonText"> Calculate </p>
+  </div>
+  <script src="mainJS.js"></script>
+</body>
